@@ -1,0 +1,32 @@
+/* CSS for the weather display container */
+.WeatherDisplay {
+    margin: 0 auto;
+    padding: 18px;
+}
+
+.WeatherDisplay img {
+    width: 10rem;
+    padding: 30px;
+}
+
+.WeatherDisplay .location {
+    font-family: 'Anton', sans-serif;
+    font-size: 4rem;
+    letter-spacing: 0.05em;
+    max-width: 30rem;
+}
+
+.WeatherDisplay .weather {
+    padding-left: 1rem;
+}
+
+.temperature {
+    font-size: 6rem;
+}
+
+.weather-temp {
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
